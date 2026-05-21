@@ -1,0 +1,10 @@
+patch:
+  table_translator:
+    enable_user_dict: true
+    enable_sentence: true
+    enable_encoder: true
+    encode_commit_history: true
+    user_dict: wubi86_jidian_user
+    db_class: tabledb
+    disable_user_dict_for_patterns:
+      - "^z.*$"
